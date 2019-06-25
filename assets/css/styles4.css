@@ -72,7 +72,29 @@ body{
 .txt_cl{
 
 background-color: aquamarine;
-border-color: red 1px solid;
+color: red 1px solid;
 
 }
 
+/*/ Media queries */
+
+#box_content{
+
+    width: 100px;
+    height: 700px;
+    color: white;
+    align-items: center;
+    background-color: purple;
+}
+
+@media only screen and (max-width: 768){
+
+#box_content{
+
+    width: 90px;
+    height: 700px;
+    color: white;
+    align-items: center;
+    background-color: red;
+}
+}
