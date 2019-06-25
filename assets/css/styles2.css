@@ -1,0 +1,56 @@
+body{
+
+background-color:slategrey ;
+margin: 0;
+padding: 0;
+
+
+}
+.link_menu {
+    color: yellow;
+    text-decoration: none;
+    font-size: 118px;
+    font-weight: bold;
+}
+
+.link_menu_selected{
+    font-size: 118px;
+    font-weight: bold;
+    color: brown;
+
+    }
+
+.link_menu_selected:hover{
+
+    color: aquamarine;
+    font-size: 98px;
+    font-weight: bold;
+
+
+}
+
+#box_1{
+
+width: 1000px;
+height: 1000px;
+background-color: aquamarine;
+margin: 10px;
+padding: 20px;
+border: 3px dotted red;
+border-radius: 25px;
+background-image: url("/assets/img/2.jpg");
+background-repeat: repeat-y repeat-x;
+background-position: left top;
+
+}
+
+#box_1 img{
+    width: 100%;
+}
+
+.round_img{
+
+    border: 3px dashed red;
+    border-radius: 300px;
+
+}
